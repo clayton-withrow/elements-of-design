@@ -5,7 +5,7 @@ body, html {
     color: #777;
   }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -29,6 +29,11 @@ body, html {
     min-height: 400px;
 }
 
+.bgimg-4 {
+    background-image: url("../img/vaporwave4.jpg");
+    min-height: 400px;
+}
+
 .caption {
     position: absolute;
     left: 0;
@@ -46,31 +51,15 @@ body, html {
     letter-spacing: 10px;
 }
 
+.border {
+    border: 1px solid black;
+}
+
 h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
     color: #111;
-}
-  
-.parallax {
-    /* The image used */
-    background-image: url("../img/vaporwave.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.top-header {
-    background-color: black;
-    color: white;
-    padding-bottom: 10px;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
